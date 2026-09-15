@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Perfil Profesional</title>
+        <link rel="stylesheet" href="css/matriz.css">
+    </head>
+
+    <body> 
+        <header class="cabecera">
+            <h1>Adriano Isaí Cárdenas Gómez</h1>
+            <nav class="cabecera-menu">
+                <a class="cabecera-menu-link" href="#seccion1">Sobre mí</a>
+                <a class="cabecera-menu-link" href="#seccion2">Mi perfil</a>
+                <a class="cabecera-menu-link" href="#seccion3">Contacto</a>
+            </nav>
+        </header>
+        
+        <main class="cuerpo">
+            <section id="seccion1" class="cuerpo-s1">
+                <h2>Sobre mí</h2>
+
+                <div class="cuerpo-s1-banner">
+                    <div class="cuerpo-s1-banner-yo">
+                        <h3>Hola, soy Adriano</h3>
+                        <p>Soy Adriano Isaí Cárdenas Gómez, tengo 19 años y resido en el distrito de La Victoria, Lima. Actualmente estudio la carrera de Desarrollo y Diseño de Software en Certus. Me interesa especialmente el desarrollo backend y todo lo relacionado con la creación y funcionamiento de sistemas y aplicaciones.</p>
+                        <p>Mi objetivo es continuar fortaleciendo mis conocimientos en programación y especializarme progresivamente en el área de backend. Busco desarrollar experiencia y adquirir nuevas habilidades que me permitan desenvolverme de manera eficiente en el ámbito profesional.</p>
+                    </div>
+
+                    <div class="cuerpo-s1-banner-imagen">
+                        <img src="img/esesoyyo1.jpg" alt="Mi perfil" class="cuerpo-s1-mas-imagen">
+                    </div>
+                </div>
+            </section>
+
+            <section id="seccion2" class="cuerpo-s2">
+                <h2>Mi perfil</h2>
+                
+                <div class="cuerpo-s2-banner">
+                    <div class="cuerpo-s2-banner-imagen">
+                        <img src="img/esesoyyo2.jpg" alt="Mi perfil" class="cuerpo-s2-mas-imagen">
+                    </div>
+
+                    <div class="cuerpo-s2-banner-yo">
+                        <h3>Formación</h3>
+                        <p><strong>Carrera:</strong> Desarrollo y Diseño de Software — Certus.</p>
+                        <p>Actualmente me encuentro desarrollando conocimientos en programación, desarrollo web y diseño de soluciones digitales, buscando complementar la formación teórica con la práctica mediante diferentes proyectos académicos.</p>
+
+                        <h3>Experiencia</h3>
+                        <p>
+                            <strong>Proyecto académico — Portafolio web personal:</strong> diseño y desarrollo de un sitio web utilizando HTML5 y CSS3, aplicando estructura semántica, organización del contenido y diseño responsive.<br><br>
+                            <strong>Proyecto académico — Landing page para marca de ropa deportiva:</strong> desarrollo de una página web informativa para una marca de ropa deportiva, incorporando un formulario de contacto y adaptando la interfaz para diferentes dispositivos.
+                        </p>
+
+                        <h3>Habilidades</h3>
+                        <p>HTML5 y CSS3 · Diseño responsive · Organización de contenido · Trabajo en equipo · Aprendizaje autónomo · Adaptación a nuevas tecnologías</p>
+
+                        <h3>Objetivo profesional</h3>
+                        <p>Mi objetivo profesional es especializarme en desarrollo backend, ampliar mis conocimientos en programación y adquirir experiencia participando en proyectos que me permitan crecer dentro del área de desarrollo de software.</p>
+                     </div>
+                </div>
+            </section>
+
+            <section id="seccion3" class="cuerpo-s3">
+                <div class="cuerpo-s3-contacto">
+                    <h1>Contáctame</h1>
+                    <div class="cuerpo-s3-contacto-datos">
+                        <p>Correo electrónico: adrianocg1208@gmail.com</p>
+                        <p>Teléfono: 929 952 736</p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/adriano-isai-cardenas-gomez-0312ba435/" target="_blank" rel="noopener noreferrer" class="cuerpo-s3-contacto-link">Mi perfil de LinkedIn</a></p>
+                    </div>
+                    <form>
+                        <label for="nombres">Nombres:</label>
+                        <input type="text" id="nombres" name="nombres"
+                            placeholder="Ingrese sus nombres" required>
+
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos"
+                            placeholder="Ingrese sus apellidos" required>
+
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo"
+                            placeholder="Ingrese su correo" required>
+
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono"
+                            placeholder="Ingrese su teléfono" required>
+
+                        <label for="servicio">Seleccione un servicio:</label>
+                        <select id="servicio" name="servicio" required>
+                            <option value="">-- Seleccione un servicio --</option>
+                            <option value="Impulso Digital">Impulso Digital</option>
+                            <option value="Acción Digital">Acción Digital</option>
+                            <option value="Presencia Web">Presencia Web</option>
+                            <option value="Consultoría de negocios">
+                                Consultoría de negocios
+                            </option>
+                        </select>
+
+                        <label for="comentarios">Comentarios:</label>
+                        <textarea id="comentarios" name="comentarios"
+                                placeholder="Escriba sus comentarios"
+                                rows="5"></textarea>
+
+                        <button type="submit">Enviar formulario</button>
+
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="pie">
+            <div class="pie-contenedor">
+                <p class="pie-contenedor-autor">&copy; Cárdenas Gómez</p>
+ 
+                <div class="pie-contenedor-iconos">
+                    <a href="https://facebook.com">
+                        <img src="img/facebooklogo.png" alt="Facebook"> 
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="img/instagramlogo.png" alt="Instagram">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="img/twitterxlogo.png" alt="Twitter X">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
